@@ -1,0 +1,22 @@
+; reverse lookup database
+$TTL    1
+@               IN      SOA     22.0.0.31.in-addr.arpa.    nobody.nowhere. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@                            IN      NS      15.0.0.22.in-addr.arpa.
+22.0.0.15.in-addr.arpa.      IN      A       15.0.0.22
+22.0.0.15.in-addr.arpa.      PTR        .
+3.2.3.35.in-addr.arpa.       PTR        sv522.mx.
+2.3.1.25.in-addr.arpa.       PTR        sv520.br.
+3.2.2.105.in-addr.arpa.      PTR        sv503.com.br.
+3.2.2.105.in-addr.arpa.      PTR        sv503.edu.br.
+4.2.2.105.in-addr.arpa.      PTR        sv504.com.mx.
+4.2.2.105.in-addr.arpa.      PTR        sv504.edu.mx.
+3.4.1.105.in-addr.arpa.      PTR        sv510.oracle.com.br.
+3.4.1.105.in-addr.arpa.      PTR        sv510.oracle.com.mx.
+3.64.1.205.in-addr.arpa.     PTR        sv513.ufrgs.edu.br.
+3.64.1.205.in-addr.arpa.     PTR        sv513.unam.edu.mx.

@@ -1,0 +1,14 @@
+$TTL    60000
+@               IN      SOA     sv503.edu.br.    root.sv503.edu.br. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+
+@               IN      NS      sv303.edu.br.
+sv503           IN      A       105.2.2.3
+
+ufrgs           IN      NS      sv513.ufrgs.edu.br.
+sv513.ufrgs.edu  IN   A      205.1.64.3

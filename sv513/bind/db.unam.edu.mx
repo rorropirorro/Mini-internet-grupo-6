@@ -1,0 +1,14 @@
+$TTL    60000
+@               IN      SOA     sv513.unam.edu.mx.    root.sv513.unam.edu.mx. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+
+@               IN      NS      sv513.unam.edu.mx.
+sv513           IN      A       203.1.64.3
+
+unam            IN      NS      sv513.unam.edu.mx.
+sv513.unam.edu  IN   A      205.1.64.3

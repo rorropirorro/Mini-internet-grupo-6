@@ -1,0 +1,23 @@
+$TTL    60000
+@               IN      SOA     sv522.mx.    root.mx. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+
+@               IN      NS      sv522.mx.
+sv522           IN      A       35.3.2.3
+
+com             IN      NS      sv504.com.mx.
+sv504.com       IN      A       105.2.2.4
+
+oracle.com      IN      NS      sv510.oracle.com.mx.
+sv510.oracle.com  IN   A      105.1.4.3
+
+edu             IN      NS      sv504.edu.mx.
+sv504.edu       IN      A       105.2.2.4
+
+unam.edu      IN      NS      sv513.unam.edu.mx.
+sv513.unam.edu  IN   A      205.1.64.3

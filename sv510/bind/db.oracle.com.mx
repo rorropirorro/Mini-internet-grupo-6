@@ -1,0 +1,11 @@
+$TTL    60000
+@               IN      SOA     sv510.oracle.com.mx.    root.sv510.com.mx. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+
+@               IN      NS      sv510.oracle.com.mx.
+sv510           IN      A       105.1.4.3
