@@ -1,0 +1,2 @@
+ifconfig eth0 155.2.0.2/16 up #esta es la ipv4 faltaria la 6
+route add default gw 155.2.0.1 eth0

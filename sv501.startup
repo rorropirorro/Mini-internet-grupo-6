@@ -1,0 +1,2 @@
+ifconfig eth0 105.3.3.4/24 up
+/etc/init.d/bind start
